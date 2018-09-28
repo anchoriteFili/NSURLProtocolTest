@@ -15,6 +15,7 @@
 		D6C8715A215E05B200A7EC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C87159215E05B200A7EC90 /* main.m */; };
 		D6C87164215E05B200A7EC90 /* NSURLProtocolTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C87163215E05B200A7EC90 /* NSURLProtocolTestTests.m */; };
 		D6C8716F215E05B200A7EC90 /* NSURLProtocolTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C8716E215E05B200A7EC90 /* NSURLProtocolTestUITests.m */; };
+		D6C8717E215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C8717D215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D6C8716A215E05B200A7EC90 /* NSURLProtocolTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLProtocolTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8716E215E05B200A7EC90 /* NSURLProtocolTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLProtocolTestUITests.m; sourceTree = "<group>"; };
 		D6C87170215E05B200A7EC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C8717C215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+LLMarkerURLProtocol.h"; sourceTree = "<group>"; };
+		D6C8717D215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+LLMarkerURLProtocol.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D6C8714B215E05AE00A7EC90 /* AppDelegate.m */,
 				D6C8714D215E05AE00A7EC90 /* ViewController.h */,
 				D6C8714E215E05AE00A7EC90 /* ViewController.m */,
+				D6C8717C215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.h */,
+				D6C8717D215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.m */,
 				D6C87150215E05AE00A7EC90 /* Main.storyboard */,
 				D6C87153215E05B100A7EC90 /* Assets.xcassets */,
 				D6C87155215E05B100A7EC90 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				D6C8714F215E05AE00A7EC90 /* ViewController.m in Sources */,
 				D6C8715A215E05B200A7EC90 /* main.m in Sources */,
+				D6C8717E215E0AF000A7EC90 /* NSURLProtocol+LLMarkerURLProtocol.m in Sources */,
 				D6C8714C215E05AE00A7EC90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJR2ZF8DZN;
 				INFOPLIST_FILE = NSURLProtocolTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJR2ZF8DZN;
 				INFOPLIST_FILE = NSURLProtocolTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
